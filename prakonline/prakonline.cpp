@@ -12,3 +12,5 @@ float lingkaran(float r) {
 float segitiga(float a, float t) {
 	return 0.5 * a * t;
 }
+
+int main()

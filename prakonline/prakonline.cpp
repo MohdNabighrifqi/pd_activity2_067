@@ -1,4 +1,6 @@
 #include <iostream>
-using namesapce std;
+using namespace std;
 
-
+float PersegiPanjang(float p, float 1){
+	return p * 1;
+}

@@ -13,4 +13,4 @@ float segitiga(float a, float t) {
 	return 0.5 * a * t;
 }
 
-int main()
+int main();

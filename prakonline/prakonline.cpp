@@ -13,4 +13,15 @@ float segitiga(float a, float t) {
 	return 0.5 * a * t;
 }
 
-int main();
+int main()
+{
+	float nilai[10];
+	float panjang, lebar, jejari, alas, tinggi;
+	int pilihan;
+	bool menu;
+	menu = true;
+	while (menu == true)
+	{
+
+	}
+}

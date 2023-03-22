@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-float PersegiPanjang(float p, float 1){
+float PersegiPanjang(float p, float 1) {
 	return p * 1;
 }
 
@@ -13,13 +13,13 @@ float segitiga(float a, float t) {
 	return 0.5 * a * t;
 }
 
-int main()
-{
+int main() {
+
 	float panjang, lebar, tinggi, jejari, alas;
 	int pilihan;
 
-	system("cls")
-	do{
+
+
 
 			cout << "------------------" << endl;
 			cout << "------M E N U-----" << endl;
@@ -49,6 +49,7 @@ int main()
 				cin >> tinggi;
 				cout << "luas segitiga =" << segitiga(alas, tinggi);
 				break;
+			
 			case 3:
 				cout << "masukan jari-jari =";
 				cin >> jejari;
@@ -62,5 +63,5 @@ int main()
 				cout << "pilihan anda salah!";
 				break;
 			}
-	} while (pilihan != 4);
+	
 }
